@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="topo">
         <p></p>
         <h4 class="introducao">Sabor que chama de volta</h4>
         <p></p>
@@ -18,9 +18,9 @@
         <p class="intro">Salgados quentinhos, pizzas e bebidas para deixar seu dia mais gostoso</p>
         <p></p>
         <nav class="navInicial">
-            <a class="destaques" href="">Destaques</a>
+            <a class="destaques" href="#dest">Destaques</a>
             <a class="cardapio" href="#card">Cardápio</a>
-            <a class="enderecoContato" href="">Endereço e contato</a>
+            <a class="enderecoContato" href="#endCont">Endereço e contato</a>
         </nav>
     </header>
     <main>
@@ -30,11 +30,11 @@
                 <p class="texto2">Na nossa lanchonete você encontra salgados preparados todos os dias,
                     pizzas individuais e aquele combo rápido para dividir com os amigos.</p>
                 <nav>
-                    <a class="verCardapio" href="#cardapio">Ver o cardápio</a>
+                    <a class="verCardapio" href="#card">Ver o cardápio</a>
                 </nav>
             </div>
         </section>
-        <h1 class="maisPedidos">Mais pedidos</h1>
+        <h1 class="maisPedidos" id="dest">Mais pedidos</h1>
         <div class="imagens">
             <img class="coxinha" src="/img/coxinha.jpg" alt="imagem de coxinha de frango" width="300">
             <img class="pastel" src="/img/pastel.jpg" alt="imagem de pastel" width="285">
@@ -49,31 +49,100 @@
                     ou restrição alimentar, consulte a equipe antes de consumir.</p>
                 <h2>Salgados</h2>
             </div>
-            <section>
-                <p>Coxinha de frango - R$7,00</p>
-                <p>Massa, frango desfiado e tempero de casa.</p>
-            </section>
-            <section>
-                <p>Coxinha com requeijão - R$8,00</p>
-                <p>Massa, frango desfiado e requeijão.</p>
-            </section>
-            <section>
-                <p>Pastel de carne - R$9,00</p>
-                <p>Massa, carne moida, cebola e azeitona.</p>
-            </section>
-            <section>
-                <p>Pastel de queijo - R$9,00</p>
-                <p>Massa, queijo muçarela e orégano.</p>
-            </section>
-            <section>
-                <p>Esfiha de carne - R$7,00</p>
-                <p>Massa assada, carne, tomate e cebola.</p>
-            </section>
-            <section>
-                <p>Enroladinho - R$6,50</p>
-                <p>Massa, salsicha e queijo.</p>
-            </section>
-            <sectio </main>
+            <div class="menu">
+                <div class="part1">
+                    <section class="opcoxinha">
+                        <p>Coxinha de frango - R$ 7,00</p>
+                        <p>Massa, frango desfiado e tempero de casa.</p>
+                    </section>
+                    <section class="opcoxinhare">
+                        <p>Coxinha com requeijão - R$ 8,00</p>
+                        <p>Massa, frango desfiado e requeijão.</p>
+                    </section>
+                    <section class="pastelcarne">
+                        <p>Pastel de carne - R$ 9,00</p>
+                        <p>Massa, carne moida, cebola e azeitona.</p>
+                    </section>
+                </div>
+                <div class="part2">
+                    <section class="pastelqueijo">
+                        <p>Pastel de queijo - R$ 9,00</p>
+                        <p>Massa, queijo muçarela e orégano.</p>
+                    </section>
+                    <section class="esfiha">
+                        <p>Esfiha de carne - R$ 7,00</p>
+                        <p>Massa assada, carne, tomate e cebola.</p>
+                    </section>
+                    <section class="enroladinho">
+                        <p>Enroladinho - R$ 6,50</p>
+                        <p>Massa, salsicha e queijo.</p>
+                    </section>
+                </div>
+                <h2 class="titulo4">Pizzas individuais</h2>
+                <div class="part3">
+                    <section class="muçarela">
+                        <p>Muçarela - R$ 22,00</p>
+                        <p>Molho de tomate, muçarela, tomate e orégano.</p>
+                    </section>
+                    <section class="calabresa">
+                        <p>Calabresa - R$ 24,00</p>
+                        <p>Molho, muçarela, calabresa, cebola e orégano.</p>
+                    </section>
+                    <section class="frango">
+                        <p>Frango com requeijão - R$ 26,00</p>
+                        <p>Molho, muçarela, frango, requeijão e milho.</p>
+                    </section>
+                </div>
+                <h2 class="combo">Porções e combos</h2>
+                <div class="part4">
+                    <section class="batata">
+                        <p>Batata frita - a partir de R$ 12,00</p>
+                        <p>Porção pequena por R$ 12,00 ou grande por R$ 18,00.</p>
+                    </section>
+                    <section class="minisalgados">
+                        <p>Mini salgados - R$ 28,00</p>
+                        <p>Porção com 20 unidades variadas.</p>
+                    </section>
+                    <section class="combo2">
+                        <p>Combo Tentação - R$ 12,00</p>
+                        <p>Um salgado tradicional e um refrigerante em lata.</p>
+                    </section>
+                </div>
+                <h3 class="infoAdd">Venha nos visitar</h3>
+                <h2 class="titulo5" id="endCont">Endereço, horários e contato</h2>
+                <div class="part5">
+                    <section class="ender">
+                        <b>
+                            <p>Endereço</p>
+                        </b>
+                        <p>Alto do Morro da Paz, 67
+                            Centro - General Sampaio-CE
+                        </p>
+                    </section>
+                    <section class="horarios">
+                        <b>
+                            <p>Horários</p>
+                        </b>
+                        <p>Segunda a sábado: 15h às 22h
+                            Domingo: 17h às 21h
+                        </p>
+                    </section>
+                    <section class="contato">
+                        <b>
+                            <p>Contato</p>
+                        </b>
+                        <p>(00) 90000-0000
+                            contato@salgaderiatentacao.com
+                        </p>
+                    </section>
+                </div>
+    </main>
+    <footer>
+        <b>
+            <p class="tituloFinal">Salgadaria Tentação - sabor que chama de volta.</p>
+        </b>
+        <a href="#topo" class="voltar">Voltar ao início</a>
+    </footer>
 </body>
 
 </html>

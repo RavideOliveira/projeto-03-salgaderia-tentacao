@@ -1,4 +1,4 @@
-*{
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -6,21 +6,25 @@
     background-color: #fff5dd;
 }
 
-header, .intro{
+header,
+.intro {
     margin: 0;
     padding: 20px;
     background-color: #c10f06;
     color: rgb(239, 234, 234);
 }
 
-.navInicial, .destaques, .cardapio, .enderecoContato{
+.navInicial,
+.destaques,
+.cardapio,
+.enderecoContato {
     background-color: #c10f06;
     color: rgb(239, 234, 234);
     margin: 0;
     padding: 10px;
 }
 
-.introducao{
+.introducao {
     background-color: #ffc43d;
     color: maroon;
     border-radius: 7px;
@@ -32,7 +36,7 @@ header, .intro{
     align-items: center;
 }
 
-.titulo{
+.titulo {
     margin: 0;
     padding: 7px;
     background-color: #c10f06;
@@ -40,20 +44,20 @@ header, .intro{
     font-size: 40px;
 }
 
-.divPai{
+.divPai {
     height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.tentacao{
+.tentacao {
     margin: 0;
     padding: 47px;
     background-color: #ffe3a3;
     border-radius: 25px;
     width: 1100px;
-    height: 270px; 
+    height: 270px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -61,13 +65,16 @@ header, .intro{
 
 }
 
-.texto1, .texto2{
+.texto1,
+.texto2 {
     background-color: #ffe3a3;
 }
-.texto1{
+
+.texto1 {
     color: rgb(184, 13, 13);
 }
-.verCardapio{
+
+.verCardapio {
     background-color: rgb(184, 13, 13);
     color: white;
     border-radius: 7px;
@@ -78,22 +85,27 @@ header, .intro{
     align-items: center;
     justify-content: center;
 }
-.maisPedidos{
+
+.maisPedidos {
     background-color: #fff5dd;
     color: rgb(184, 13, 13);
     padding-left: 120px;
 }
-.imagens, .coxinha, .pastel, .pizza{
+
+.imagens,
+.coxinha,
+.pastel,
+.pizza {
     margin: 0;
     padding: 20px;
     padding-left: 30px;
     border-radius: 50px;
-    width: 320px;
+    width: 200px;
     display: flex;
     flex-direction: row;
 }
 
-.parte2{
+.parte2 {
     background-color: #ffc43d;
     color: maroon;
     margin: 40px;
@@ -104,15 +116,227 @@ header, .intro{
     padding-left: 40px;
 }
 
-.cardapio2{
+.cardapio2 {
     background-color: #fff5dd;
     color: rgb(184, 13, 13);
     padding: 15px;
     padding-left: 120px;
 }
 
-.intro2{
+.intro2 {
+    padding: 2px;
+    padding-left: 40px;
+    line-height: 40px;
+}
+
+.opcoxinha {
+    margin: 0;
     padding: 20px;
-    padding-left: 120px;
-    line-height: 60px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.opcoxinhare {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.pastelcarne {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.part1 {
+    display: flex;
+    gap: 20px;
+    padding-left: 115px;
+    padding: 20px;
+}
+
+.pastelqueijo {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.esfiha {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.enroladinho {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.part2 {
+    display: flex;
+    gap: 20px;
+    padding-left: 115px;
+    padding: 20px;
+}
+
+.titulo4 {
+    padding-left: 40px;
+}
+
+.muçarela {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.calabresa {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.frango {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.part3 {
+    display: flex;
+    gap: 20px;
+    padding-left: 115px;
+    padding: 20px;
+}
+
+.combo {
+    padding-left: 40px;
+}
+
+.batata {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.minisalgados {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.combo2 {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid;
+}
+
+.part4 {
+    display: flex;
+    gap: 20px;
+    padding-left: 115px;
+    padding: 20px;
+}
+
+.infoAdd {
+    background-color: #ffc43d;
+    color: maroon;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    width: 250px;
+    height: 30px;
+    padding: 2px;
+    padding-left: 50px;
+    margin: 40px;
+}
+
+.titulo5 {
+    padding-left: 40px;
+}
+
+.ender {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.horarios {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.contato {
+    margin: 0;
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    height: 130px;
+    border: 1px solid
+}
+
+.part5 {
+    display: flex;
+    gap: 20px;
+    padding-left: 115px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #c10f06;
+    color: rgb(239, 234, 234);
+    padding: 20px;
+    text-align: left;
+}
+
+.tituloFinal {
+    background-color: #c10f06;
+    color: rgb(239, 234, 234);
+}
+
+.voltar {
+    background-color: #c10f06;
+    color: rgb(239, 234, 234);
 }
